@@ -1,6 +1,8 @@
 {
   "compilerOptions": {
-    "lib": ["es2017"],
+    "lib": [
+      "es2017"
+    ],
     "jsx": "react-native",
     "noResolve": false,
     "noImplicitAny": false,
@@ -14,6 +16,10 @@
     "declaration": true
   },
   "compileOnSave": true,
-  "exclude": ["node_modules"],
-  "include": ["./index.ts"]
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "index.native.ts"
+  ]
 }
